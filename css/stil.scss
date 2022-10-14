@@ -1,0 +1,100 @@
+$font:Open Sans;
+$fontnaslov:Permanent Marker;
+$hover:#f2b9c4;
+$crna:#000;
+$bela:#fff;
+
+@mixin title{
+	width:200px;
+	margin:25px auto;
+	text-align:center;
+	border-radius:4px;
+	background-color:$crna;
+	color:$bela;
+	font{
+		family:$fontnaslov;
+		size:15px;
+	}
+}
+body{
+	background-image:url(../img/pozadina.jpg);
+	font-family:$font;
+}
+#wrap{
+	width:1200px;
+	margin:0 auto;
+	background-color:$bela;
+}
+#top{
+	#logo{
+		width:300px;
+		height:130px;
+		margin:0 auto;
+		margin-bottom:10px;
+	}
+	nav{
+		width:inherit;
+		background-color:$crna;
+		margin-top:20px; 
+		text-align:center;
+		font-family:$fontnaslov;
+		ul{
+			list-style-type:none;
+				li{
+					display:inline;
+					padding:4px 50px;
+					a{
+						color:$bela;
+						font-size:20px;
+					}
+					&:hover:$hover;
+				}
+		}
+	}
+}
+#content{
+	width:inherit;
+}
+.title{
+	@include title
+}
+#blokovi{
+	width:80%;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:50px;
+	.blok{
+		width:200px;
+		height:480px;
+		float:left;
+		margin:0 20px;
+	}
+	& img{
+		width:100%;
+		height:100%;
+		border-radius:4px;
+	}
+}
+#footer{
+	height:100px;
+	width:inherit;
+	background-color:$crna;
+	position:relative;
+	#info{
+		width:244px;
+		color:$bela;
+		float:left;
+		font-size:14px;
+		text-align:center;
+		font-family:$fontnaslov;
+		padding-top:25px;
+		padding-left:40px;
+	}
+	#login{
+		width:150px;
+		margin:0 auto;
+		float:left;
+		padding-top:35px;
+		padding-left:220px;
+	}
+}

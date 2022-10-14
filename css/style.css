@@ -1,0 +1,596 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+.cleaner{
+	clear:both;
+}
+body{
+	background-image:url('../img/pozadina.jpg');
+}
+#wrap{
+	width:1200px;
+	margin:0 auto;
+	background-color:#fff;
+}
+#top{
+	width:inherit;
+}
+#logo{
+	width:300px;
+	height:130px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+#logo img{
+	width:300px;
+	height:130px;
+}
+.naslov{
+	width:inherit;
+	margin:0 auto;
+	background-color:#000;
+	text-align:center;
+	color:#fff;
+	padding:5px 0;
+	font-family:'Permanent Marker';
+}
+nav{
+	width:inherit;
+	margin:0 auto;
+	background-color:#000;
+	margin-top:20px; 
+	text-align:center;
+	/*height:38px;*/
+}
+nav ul{
+	list-style-type:none;
+}
+nav ul li{
+	display:inline;
+	padding:4px 50px;
+}
+nav ul li a{
+	/*padding:4px 60px;*/
+	color:#fff;
+	font-size:20px;
+}
+nav ul li a:hover{
+	color: #f2b9c4;
+}
+#dugme{
+	display:none;
+	float:right;
+	font-size:20px;
+	color:#fff;
+	background-color:#000;
+	margin-right:20px;
+	padding:5px;
+}
+#dugme button{
+	background-color:#000;
+	border:none;
+	outline:none;
+}
+.crta{
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+#content{
+	width:inherit;
+}
+#slika{
+	width:100%;
+	height:550px;
+	background-image:url('../img/hapon.jpg');
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-size:cover;
+}
+#blokovi{
+	width:80%;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:50px;
+}
+.blok{
+	width:200px;
+	height:480px;
+	float:left;
+	/*margin-right:53px;*/
+	margin:0 20px;
+}
+.desnir{
+	margin-right:0;
+}
+.blok img{
+	width:100%;
+	height:100%;
+	border-radius:4px;
+}
+
+#tekst{
+	width:70%;
+	margin:20px auto;
+	text-align: center;
+	border:1px solid #000;
+	padding:30px 20px;
+	border-radius:6px;
+	font-family:'Open Sans';
+	font-size:15px;
+}
+#footer{
+	height:100px;
+	width:inherit;
+	background-color:#000;
+	position:relative;
+}
+.footerMeni{
+	width:400px;
+	float:right;
+	padding-top:35px;
+}
+.footerMeni ul{
+	list-style-type:none;
+}
+.footerMeni ul li{
+	float:left;
+	margin-right:20px;
+}
+.footerMeni ul li a{
+	color:#fff;
+}
+.footerMeni ul li a:hover{color: #f2b9c4;}
+#info{
+	width:244px;
+	color:#fff;
+	float:left;
+	font-size:14px;
+	text-align:center;
+	font-family:'Permanent Marker';
+	padding-top:25px;
+	padding-left:40px;
+}
+#info a{
+	color:#fff;
+}
+#info a:hover{
+	color:#f2b9c4;
+}
+/* ABOUT */
+#aboutBlok{
+	width:1000px;
+	margin:30px auto;
+}
+#aboutSlika{
+	width:220px;
+	float:left;
+}
+#aboutSlika img{
+	width:220px;
+	height:300px;
+	border-radius:5px;
+}
+#aboutOmot{
+	width:440px;
+	float:left;
+}
+#aboutNaslov{
+	text-align:center;
+	font-family:'Permanent Marker';
+	font-size:20px;
+}
+#aboutTekst{
+	font-family:'Open Sans';
+	width:80%;
+	margin:10px auto;
+	text-align:justify;
+	padding-top:20px;
+	padding-bottom:92px;
+}
+#aboutForma{
+	width:300px;
+	float:right;
+	border:1px solid #000;
+	border-radius:3px;
+	padding: 15px 0;
+	text-align:center;
+	font-family:'Open Sans';
+}
+#aboutForma input[type="email"]{
+	padding:5px 10px;
+	margin:10px 0;
+	font-family:'Open Sans';
+	border-radius:4px;
+	border:1px solid #000;
+}
+#aboutForma textarea{
+	margin:10px 60px;
+	height:150px;
+	font-family:'Open Sans';
+	border-radius:4px;
+	padding:4px;
+}
+#kliner{
+	display:none;
+}f
+/* FESTIVALS */
+.title{
+	width:200px;
+	margin:25px auto;
+	border-radius:4px;
+	background-color:#000;
+	text-align:center;
+	color:#fff;
+	padding:5px 0;
+	font-family:'Permanent Marker';
+}
+.discover{
+	width:300px;
+	margin-top:20px;
+}
+#omot{
+	width:90%;
+	margin:20px auto;
+}
+.festVeliki{
+	width:90%;
+	margin:10px auto;
+}
+.festBlok{
+	width:47%;
+	float:left;
+}
+.festSlika{
+	height:300px;
+	padding-top:5px;
+}
+.festSlika img{
+	width:100%;
+	height:100%;
+	border-radius:4px;
+}
+.festNaslov h2{
+	text-align:center;
+	padding:8px 0;
+	font-family:'Permanent Marker';
+}
+.festBlok p{
+	font-family:'Open Sans';
+	font-size:15px;
+	text-align:justify;
+}
+.desni{
+	float:right;
+}
+/* CULTURE */
+.cultureBlok{
+	width:1100px;
+	margin:25px auto;
+}
+.cultureSlika{
+	width:485px;
+	height:300px;
+	margin-right:25px;
+	float:left;
+}
+.cultureSlika img{
+	width:100%;
+	height:100%;
+	border-radius:4px;
+}
+.cultureNaslov{
+	text-align:center;
+	font-family:'Permanent Marker';
+	font-size:20px;
+	padding:2px;
+}
+.cultureKlasa{
+	float:right;
+	width:450px;
+}
+.cultureTekst{
+	width:580px;
+	float:right;
+	text-align:justify;
+	font-family:'Open Sans';
+	font-size:14px;
+}
+.cultureKlasaDva{
+	float:left;
+}
+/* HISTORY */
+#historyBlok{
+	width:1100px;
+	margin:10px auto;
+}
+#historySlika{
+	width:350px;
+	height:250px;
+	float:left;
+}
+#historySlika img{
+	width:100%;
+	height:100%;
+}
+#historyTekst{
+	width:600px;
+	float:left;
+	font-family:'Open Sans';
+	padding-left:25px;
+	text-align:justify;
+}
+#historySlikaDva{
+	float:right;
+	width:600px;
+	height:300px;
+	margin-right:127px;
+	padding:10px 0;
+}
+#historySlikaDva img{
+	width:100%;
+	height:100%;
+}
+#historySlikaTri{
+	width:100px;
+	height:200px;
+}
+#historySlikaTri img{
+	width:100%;
+	height:100%;
+}
+
+/* LOGIN */
+.loginBlok{
+	width:43%;
+	margin:20px auto;
+}
+.logLog{
+	width:100%;
+	background-color:#000;
+	color:#fff;
+	font-family:'Permanent Marker';
+	text-align:center;
+}
+.forma{
+	width:100%;
+	margin:15px auto;
+	padding:4px 0;
+	text-align:center;
+	font-family:'Open Sans';
+	border-radius:4px;
+	border:1px solid #000;
+}
+.centar{
+	width:80%;
+	margin:0 auto;
+	align-items:center;
+}
+.loginBlok input[type="submit"]{
+	padding:5px;
+	float:right;
+	border-radius:3px;
+	border:1px solid #000;
+	color:#fff;
+	background-color:#000;
+	font-family:'Open Sans';
+}
+#regDugme{
+	margin-bottom:10px;
+}
+#login{
+	width:150px;
+	margin:0 auto;
+	float:left;
+	padding-top:35px;
+	padding-left:220px;
+}
+#login a{
+	color:#fff;
+	font-family:'Permanent Marker';
+	font-size:14px;
+	padding:0px 6px;
+}
+#login a:hover{
+	color: #f2b9c4;
+}
+#login a:nth-of-type(1){
+	border-right:1px solid #fff;
+}
+#login a:nth-of-type(3){
+	padding-left:40px;
+	padding-top:5px;
+}
+
+/* RESPONSIVE */
+
+img{
+	max-width:100%;
+}
+
+@media screen and (max-width:1000px){
+	#wrap{
+		width:100%;
+	}
+	#slika{
+		width:100%;
+	}
+	nav ul li a{
+		padding:0;
+	}
+	#content{
+		width:100%;
+	}
+	footer{
+		width:100%;
+	}
+	.blok:nth-of-type(4){
+		display:none;
+	}
+	.cultureTekst{
+		float:none;
+		width:80%;
+		margin:0 auto;
+	}
+	.cultureSlika{
+		float:none;
+		margin:0 auto;
+		padding:10px 0;
+		width:auto;
+		height:auto;
+	}
+	#cultureGlavni{
+		width:100%;
+	}
+	.cultureBlok{
+		width:auto;
+	}
+	.festSlika{
+		height:auto;
+	}
+	#historyBlok{
+		width:100%;
+	}
+	#historySlika{
+		display:none;
+	}
+	#historyTekst{
+		width:90%;
+		margin:5px auto;
+	}
+	#historySlikaDva{
+		width:auto;
+		height:auto;
+		margin:0 auto;
+	}
+	#aboutBlok{
+		width:90%;
+		margin:30px auto;
+	}
+	#aboutForma{
+		float:right;
+	}
+	.footerMeni{
+		float:right;
+	}
+	#login{
+		float:left;
+		padding-left:15px;
+	}
+	
+}
+@media screen and (max-width:920px){
+	.blok{
+		margin:0;
+		margin-right:15px;
+		width:31%;
+		height:auto;
+	}
+	.blok:nth-of-type(3){
+		margin-right:0;
+	}
+	nav ul li{
+		padding:4px 30px;
+	}
+}
+@media screen and (max-width:870px){
+	.footerMeni{
+		display:none;
+	}
+	#login{
+		position:absolute;
+		top:27px;
+		right:30px;
+		padding:0;
+	}
+}
+@media screen and (max-width:760px){
+	#blokovi{
+		width:90%
+	}
+	.blok{
+		margin-right:15px;
+	}
+	.blok:nth-of-type(4){
+		display:none;
+	}
+	nav ul li{
+		padding:4px 20px;
+	}
+	.festBlok{
+		float:none;
+		width:100%;
+	}
+	#aboutOmot{
+		width:90%;
+		margin:5px auto;
+	}
+	#aboutSlika{
+		margin:0 auto;
+		float:none;
+	}
+	#aboutForma{
+		width:80%;
+		float:none;
+		margin:0 auto;
+	}
+	#aboutTekst{
+		padding-bottom:15px;
+	}
+	#aboutForma input[type="email"]{
+		width:60%
+	}
+	#aboutForma textarea{
+		width:64%;
+	}
+	#aboutForma textarea::placeholder{
+		font-family:'Open Sans';
+	}
+	#kliner{
+		display:block;
+	}
+	
+}
+@media screen and (max-width:600px){
+	#blokovi, .discover{
+		display:none;
+	}
+	#slika{
+		background-position:80% 80%;
+	}
+	.naslov ul li{
+		float:none;
+		display:block;
+	}
+	
+}
+@media screen and (max-width:480px){
+	#aboutTekst p{
+		font-size:14px;	
+	}
+
+	#aboutForma input[type="email"]{
+		width:50%;	
+	}
+	#aboutForma textarea{
+		margin:0;
+		margin-top:5px;
+	}
+	#login{
+		float:none;
+		padding:0;
+		text-align:center;
+		margin:5px auto;
+		position:static;
+	}
+	#info{
+		float:none;
+		margin:0 auto;
+		padding-left:0;
+	}
+}
